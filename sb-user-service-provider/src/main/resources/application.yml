@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: user-service-provider
+  dubbo:
+    server: true
+    registry: zookeeper://127.0.0.1:2181
+#dubbo:
+#  application:
+#    name: user-service-provider
+#  registry:
+#    protocol: zookeeper
+#    address: zookeeper://127.0.0.1:2181
+#  protocol:
+#    name: dubbo
+#    port: 20880
+
+#  monitor:
+#    protocol: registry
