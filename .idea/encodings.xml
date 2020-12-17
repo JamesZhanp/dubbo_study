@@ -3,5 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/boot-order-service-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-user-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmallinterface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sb-order-service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sb-user-service-provider" charset="UTF-8" />
   </component>
 </project>

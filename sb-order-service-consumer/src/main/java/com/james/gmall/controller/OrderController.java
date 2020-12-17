@@ -22,7 +22,7 @@ public class OrderController {
 
     @ResponseBody
     @RequestMapping("/init-order")
-    public List<UserAddress> initOrder(@RequestParam("uid") String userId){
+    public List<UserAddress> initOrder(@RequestParam("uid") String userId) throws InterruptedException {
 
         return orderService.initOrder(userId);
 

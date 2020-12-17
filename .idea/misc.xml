@@ -6,6 +6,10 @@
         <option value="$PROJECT_DIR$/boot-user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/boot-order-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/gmallinterface/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-users-ervice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-user-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-order-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-user-service-provider/pom.xml" />
       </list>
     </option>
   </component>

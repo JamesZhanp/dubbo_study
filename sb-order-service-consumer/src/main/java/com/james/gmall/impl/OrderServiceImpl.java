@@ -17,10 +17,16 @@ import java.util.List;
 @Component
 public class OrderServiceImpl implements OrderService {
 
-    @Reference
+    /**
+     *     timeout 设置超时， 默认超时是1000ms
+     *     version 申明使用的版本， 灰度发布
+     *
+     */
+
+    @Reference(timeout = 5000)
     private UserService userService;
     @Override
-    public List<UserAddress> initOrder(String userId) {
+    public List<UserAddress> initOrder(String userId) throws InterruptedException {
         /**
          * 1. 查询用户的收货地址
          */

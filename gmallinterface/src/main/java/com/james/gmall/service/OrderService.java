@@ -9,5 +9,5 @@ import java.util.List;
  * @create: 2020 - 12 - 10 23:42
  */
 public interface OrderService {
-    List<UserAddress> initOrder(String userId);
+    List<UserAddress> initOrder(String userId) throws InterruptedException;
 }
